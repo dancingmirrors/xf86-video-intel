@@ -3710,7 +3710,7 @@ static const char *dri_driver_name(struct sna *sna)
 		else if (sna->kgem.gen < 040)
 			return "i915";
 		else
-			return "i965";
+			return "crocus";
 	}
 
 	return s;
